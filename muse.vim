@@ -74,23 +74,23 @@ call s:h("Type",        { "fg": s:purple, "bg" : s:nbg         })
 call s:h("VertSplit",   {                 "bg" : s:deepskyblue })
 
 " C/C++
-call s:h("cInclude",       { "fg": s:blue,   "bg" : s:nbg })
-call s:h("cIncluded",      { "fg": s:maroon, "bg" : s:nbg })
-call s:h("cIncluded",      { "fg": s:maroon, "bg" : s:nbg })
-call s:h("cStorageClass",  { "fg": s:blue,   "bg" : s:nbg })
-call s:h("cStructure",     { "fg": s:blue,   "bg" : s:nbg })
-call s:h("cppSTLConstant", { "fg": s:maroon, "bg" : s:nbg })
-call s:h("cppStructure",   { "fg": s:blue,   "bg" : s:nbg })
+call s:h("cInclude",       { "fg": s:blue,        "bg": s:nbg })
+call s:h("cIncluded",      { "fg": s:maroon,      "bg": s:nbg })
+call s:h("cIncluded",      { "fg": s:maroon,      "bg": s:nbg })
+call s:h("cStorageClass",  { "fg": s:blue,        "bg": s:nbg })
+call s:h("cStructure",     { "fg": s:blue,        "bg": s:nbg })
+call s:h("cppSTLConstant", { "fg": s:maroon,      "bg": s:nbg })
+call s:h("cppStructure",   { "fg": s:blue,        "bg": s:nbg })
 
 " HTML
-call s:h("htmlH1",     { "fg": s:blue, "bg" : s:nbg        })
-call s:h("htmlH2",     { "fg": s:blue, "bg" : s:nbg        })
-call s:h("htmlH3",     { "fg": s:blue, "bg" : s:nbg        })
-call s:h("htmlH4",     { "fg": s:blue, "bg" : s:nbg        })
-call s:h("htmlH5",     { "fg": s:blue, "bg" : s:nbg        })
-call s:h("htmlH6",     { "fg": s:blue, "bg" : s:nbg        })
-call s:h("htmlBold",   { "fg": s:nfg,  "bg" : s:lightcoral })
-call s:h("htmlItalic", { "fg": s:nfg,  "bg" : s:cornsilk   })
+call s:h("htmlH1", { "fg": s:blue, "bg" : s:nbg })
+call s:h("htmlH2", { "fg": s:blue, "bg" : s:nbg })
+call s:h("htmlH3", { "fg": s:blue, "bg" : s:nbg })
+call s:h("htmlH4", { "fg": s:blue, "bg" : s:nbg })
+call s:h("htmlH5", { "fg": s:blue, "bg" : s:nbg })
+call s:h("htmlH6", { "fg": s:blue, "bg" : s:nbg })
+call s:h("htmlBold", { "fg": s:nfg, "bg": s:lightcoral })
+call s:h("htmlItalic", { "fg": s:nfg, "bg": s:cornsilk })
 
 " Latex
 call s:h("texBeginEnd",     { "fg": s:blue,   "bg" : s:nbg })
@@ -113,8 +113,8 @@ call s:h("pythonStatement", { "fg": s:purple, "bg" : s:nbg })
 
 " Vim
 call s:h("vimVar",       { "fg": s:purple, "bg" : s:nbg })
-call s:h("vimOperParen", { "fg": s:nfg,    "bg" : s:nbg })
-call s:h("vimSep",       { "fg": s:nfg,    "bg" : s:nbg })
-call s:h("vimParenSep",  { "fg": s:nfg,    "bg" : s:nbg })
+call s:h("vimOperParen", { "fg": s:nfg,    "bg" : s:nbg    })
+call s:h("vimSep",       { "fg": s:nfg,    "bg" : s:nbg    })
+call s:h("vimParenSep",  { "fg": s:nfg,    "bg" : s:nbg    })
 
 "}}}
